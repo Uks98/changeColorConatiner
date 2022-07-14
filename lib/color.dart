@@ -1,5 +1,6 @@
 
 class ColorClass{
   int colorSelectIndex;
-  ColorClass({required this.colorSelectIndex});
+  String? text;
+  ColorClass({required this.colorSelectIndex,required this.text});
 }
